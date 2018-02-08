@@ -12,5 +12,5 @@ def select_winner(guest_registry)
       winner = guest
     end
   end  
-guest
+winner
 end
