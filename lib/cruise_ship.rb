@@ -7,6 +7,7 @@
 # }
 
 def select_winner(guest_registry)
+  winner = ""
   guest_registry.each do |room, guest|
     if room == :suite_a && guest.start_with?("A")
       winner = guest
