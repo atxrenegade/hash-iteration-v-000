@@ -6,3 +6,10 @@
 # suite_e: "Crumpet the Elf"
 # }
 
+def select_winner(guest_registry)
+  guest_registry.each do |room, guest|
+    if room == :suite_a && guest.start_with("A")
+      winner = guest
+    end
+guest
+end
