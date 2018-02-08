@@ -5,5 +5,5 @@
 # }
 
 def happy_birthday(hash)
-  array.each {|name, age| puts "Happy Birthday #{name}! You are now #{age} years old!"}
+  hash.each {|name, age| puts "Happy Birthday #{name}! You are now #{age} years old!"}
 end   
