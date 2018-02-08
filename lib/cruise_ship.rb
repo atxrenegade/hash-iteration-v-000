@@ -11,5 +11,6 @@ def select_winner(guest_registry)
     if room == :suite_a && guest.start_with("A")
       winner = guest
     end
+  end  
 guest
 end
